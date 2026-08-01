@@ -1,7 +1,24 @@
 aid: tailored
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tailored.png
 name: Tailored
-description: Tailored is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tailored is a stub added to the API Evangelist network from 500 Global's portfolio. The
+  only anchor on this record is the assigned website boatbound.co, which resolves to a defunct,
+  repurposed domain (HTTP 200, behind Cloudflare, now serving unrelated content). That domain
+  originally belonged to Boatbound, a peer-to-peer boat-rental marketplace and 500 Startups portfolio
+  company that was acquired by Boatsetter in 2017 and wound down. No live developer portal, API,
+  OpenAPI, documentation, SDK, or other developer surface could be found for this record; it has no
+  discoverable API surface pending manual identity verification of the "Tailored" name.
 url: https://raw.githubusercontent.com/api-evangelist/tailored/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -23,3 +40,11 @@ maintainers:
 common:
 - type: Website
   url: https://boatbound.co
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Assigned website boatbound.co is a defunct/repurposed domain (former Boatbound,
+    acquired by Boatsetter 2017); no live API, docs, or developer surface found. No
+    artifacts created (would be fabrication). Name "Tailored" unverified.
